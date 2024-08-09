@@ -1,5 +1,6 @@
 import os 
 import sys
+import shutil
 
 Value = str("A")
 Value = input("Hello to Fernados file manager if you want your files managed press Z ")
@@ -21,10 +22,13 @@ file_names = os.listdir("C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Man
 
 print(file_names[0])
 
-for True_files in file_names:
-    number = 0 
-    file_names[number] = True_files
-    number + 1
-    True_files = True_files.split
-    print(True_files)
+#for True_files in file_names:
+    # number = 0 
+    # file_names[number] = True_files
+    # number + 1
+    # True_files == True_files.split
+    # print(True_files)
 
+for placment in file_names:
+    if file_names.endswith == ".exe":
+        shutil.move(file_names)
