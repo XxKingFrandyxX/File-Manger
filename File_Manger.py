@@ -20,15 +20,33 @@ for item in list_folders:
 
 file_names = os.listdir("C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Junk_Items")
 
-print(file_names[0])
 
-#for True_files in file_names:
-    # number = 0 
-    # file_names[number] = True_files
-    # number + 1
-    # True_files == True_files.split
-    # print(True_files)
 
+# for True_files in file_names:
+#      number = 0 
+#      file_names[number] = True_files
+#      number + 1
+#      if number == "":
+#          break
+True_files = None
+         
 for placment in file_names:
-    if file_names.endswith == ".exe":
-        shutil.move(file_names)
+    number = 0
+    file_names[number] = True_files
+    True_files = str(True_files)
+    print (True_files)
+    if True_files.endswith == ".exe":
+        shutil.move ("C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Junk_Items\\" + {file_names},"C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\EXE folder\\" + {file_names})
+    if True_files.endswith == ".txt":
+        shutil.move ("C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Junk_Items\\" + {file_names},"C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\TXT_Folder\\" + {file_names})
+    if True_files.endswith == ".png":
+        shutil.move ("C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Junk_Items\\" + {file_names},"C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Pictures Folder\\" + {file_names})
+    if True_files.endswith == ".mp4":
+        shutil.move ("C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Junk_Items\\" + {file_names},"C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Vidoes_Folder\\" + {file_names})
+    if True_files.endswith == ".jpg":
+        shutil.move ("C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Junk_Items\\" + {file_names},"C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Jpg_Folder\\" + {file_names})
+    if True_files.endswith == ".wav":
+        shutil.move ("C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Junk_Items\\" + {file_names},"C:\\Users\\Frando\\Desktop\\Work\\Programming\\File_Manger\\Wav_Folder\\" + {file_names})
+    number + 1
+    if True_files == "":
+        break
